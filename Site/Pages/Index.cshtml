@@ -1,0 +1,11 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 id="favorite_song" class="display-4 green-text" onmouseover="newColor()" onmouseout="oldColor()">My Favourite Song</h1>
+    <!-- Embedded YouTube video with hidden controls -->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Wug0iS12nN8?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
